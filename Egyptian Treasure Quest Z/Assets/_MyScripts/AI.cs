@@ -13,7 +13,7 @@ public class AI : MonoBehaviour
 
     void Start()
     {
-        tempGM = GameObject.Find("GameManager");
+        tempGM = GameObject.FindGameObjectWithTag("GameManager");
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 

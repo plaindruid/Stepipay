@@ -14,6 +14,7 @@ public class StorylineScript : MonoBehaviour
     public GameObject sp5;
     public GameObject btnSkip;
     GameObject player;
+    public GameObject[] pages;
 
     void Start()
     {
@@ -65,19 +66,31 @@ public class StorylineScript : MonoBehaviour
         bg.SetActive(false);
         btnSkip.SetActive(false);
         player.GetComponent<FirstPersonController>().enabled = true;
+        foreach (GameObject pg in pages)
+        {
+            Destroy(pg);
+        }
     }
 
     public void pressSkip()
     {
+        //StopAllCoroutines();
+        //sp1.SetActive(false);
+        //sp2.SetActive(false);
+        //sp3.SetActive(false);
+        //sp4.SetActive(false);
+        //sp5.SetActive(false);
+        //btnSkip.SetActive(false);
+        //bg.SetActive(false);
+        //player.GetComponent<FirstPersonController>().enabled = true;
+
         StopAllCoroutines();
-        sp1.SetActive(false);
-        sp2.SetActive(false);
-        sp3.SetActive(false);
-        sp4.SetActive(false);
-        sp5.SetActive(false);
-        btnSkip.SetActive(false);
-        bg.SetActive(false);
         player.GetComponent<FirstPersonController>().enabled = true;
+        foreach (GameObject pg in pages)
+        {
+            Destroy(pg);
+        }
+
     }
 
     

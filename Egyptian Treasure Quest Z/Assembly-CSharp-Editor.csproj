@@ -71,7 +71,7 @@
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>D:/New Thesis Project/Egyptian Treasure Quest Z(backup)LATEST/Egyptian Treasure Quest Z/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Steph/Documents/GitHub/stepipay/Egyptian Treasure Quest Z/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -98,7 +98,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>D:/New Thesis Project/Egyptian Treasure Quest Z(backup)LATEST/Egyptian Treasure Quest Z/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/Steph/Documents/GitHub/stepipay/Egyptian Treasure Quest Z/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
