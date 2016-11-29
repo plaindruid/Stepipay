@@ -11,7 +11,7 @@ public class menuLoader : MonoBehaviour {
 
 	private IEnumerator Countdown()
 	{
-		yield return new WaitForSeconds (6);
+		yield return new WaitForSeconds (4);
         SceneManager.LoadScene(2);
 	}
 }

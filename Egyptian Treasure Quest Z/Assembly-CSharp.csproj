@@ -96,30 +96,33 @@
      <Compile Include="Assets\_MyModels\Mummy\C#\Sword_Shield.cs" />
      <Compile Include="Assets\_MyModels\Mummy\C#\Weaponless.cs" />
      <Compile Include="Assets\_MyScripts\AI.cs" />
-     <Compile Include="Assets\_MyScripts\ArtifactBehavior.cs" />
-     <Compile Include="Assets\_MyScripts\ArtifactManager.cs" />
      <Compile Include="Assets\_MyScripts\Coroutine.cs" />
      <Compile Include="Assets\_MyScripts\CountdownLoadScene.cs" />
-     <Compile Include="Assets\_MyScripts\For Player&apos;s Health\HealthBarScript.cs" />
      <Compile Include="Assets\_MyScripts\For Player&apos;s Health\PHealth.cs" />
      <Compile Include="Assets\_MyScripts\GameManager.cs" />
      <Compile Include="Assets\_MyScripts\IncreaseDecreaseLife.cs" />
+     <Compile Include="Assets\_MyScripts\ItemBehavior.cs" />
      <Compile Include="Assets\_MyScripts\JumpScareScript.cs" />
      <Compile Include="Assets\_MyScripts\LoadLevel.cs" />
      <Compile Include="Assets\_MyScripts\Mummy.cs" />
-     <Compile Include="Assets\_MyScripts\PlaceArtifact.cs" />
      <Compile Include="Assets\_MyScripts\PortalScript.cs" />
+     <Compile Include="Assets\_MyScripts\ShowInfoScript.cs" />
      <Compile Include="Assets\_MyScripts\StorylineScript.cs" />
+     <Compile Include="Assets\_MyScripts\TimerScript.cs" />
      <Compile Include="Assets\_MyScripts\TrapsScript.cs" />
      <Compile Include="Assets\_MyScripts\TrapsTrigger.cs" />
      <Compile Include="Assets\_MyScripts\TriviaScript.cs" />
+     <Compile Include="Assets\_MyScripts\Unused Scripts\ArtifactBehavior.cs" />
+     <Compile Include="Assets\_MyScripts\Unused Scripts\ArtifactManager.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\ButtonScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\GoToInventory.cs" />
+     <Compile Include="Assets\_MyScripts\Unused Scripts\HealthBarScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\Inventory.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\KINUKUHANANSCRIPT.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\MedkitScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\NavMeshScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\PickUpItem.cs" />
+     <Compile Include="Assets\_MyScripts\Unused Scripts\PlaceArtifact.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\QuestScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\Stat.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\TrapsTiming.cs" />
@@ -128,20 +131,29 @@
      <Compile Include="Assets\_MyScripts\Unused Scripts\barScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\doorScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\fading.cs" />
+     <Compile Include="Assets\_MyScripts\Unused Scripts\interactiveScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\itemPickupEffect.cs" />
+     <Compile Include="Assets\_MyScripts\Unused Scripts\keyBehavior.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\menuScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\playerHealth.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\portalToLobby.cs" />
+     <Compile Include="Assets\_MyScripts\Unused Scripts\spawnScript.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\underWaterEffect.cs" />
      <Compile Include="Assets\_MyScripts\Unused Scripts\waterDamage.cs" />
-     <Compile Include="Assets\_MyScripts\interactiveScript.cs" />
-     <Compile Include="Assets\_MyScripts\keyBehavior.cs" />
      <Compile Include="Assets\_MyScripts\mainMenuScript.cs" />
      <Compile Include="Assets\_MyScripts\menuLoader.cs" />
-     <Compile Include="Assets\_MyScripts\moneyBehavior.cs" />
      <Compile Include="Assets\_MyScripts\pauseMenuScript.cs" />
-     <Compile Include="Assets\_MyScripts\spawnScript.cs" />
+     <Compile Include="Assets\_MyScripts\pickUpScript.cs" />
+     <Compile Include="Assets\_MyScripts\placeItemOnHolder.cs" />
      <Compile Include="Assets\_MyScripts\splashScreenScript.cs" />
+     <Compile Include="Assets\_MyScripts\unlockTomb.cs" />
+     <Compile Include="Assets\_Quests\DataBase\QuestDatabase.cs" />
+     <Compile Include="Assets\_Quests\Interactions\ItemReciever.cs" />
+     <Compile Include="Assets\_Quests\Interactions\ItemScript.cs" />
+     <Compile Include="Assets\_Quests\Interactions\QuestChecker.cs" />
+     <Compile Include="Assets\_Quests\Interactions\RayCastSteph.cs" />
+     <Compile Include="Assets\_Quests\Managers\QuestUIManager.cs" />
+     <Compile Include="Assets\_Quests\Managers\Quest_Manager.cs" />
      <None Include="Assets\_MyImages\Day-Night Skyboxes\readme.txt" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
@@ -165,7 +177,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>D:/New Thesis Project/Egyptian Treasure Quest Z(backup)LATEST/Egyptian Treasure Quest Z/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/Steph/Documents/GitHub/stepipay/Egyptian Treasure Quest Z/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

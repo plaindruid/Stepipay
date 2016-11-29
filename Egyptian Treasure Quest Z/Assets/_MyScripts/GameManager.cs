@@ -14,11 +14,8 @@ public class GameManager : MonoBehaviour {
     public float score;
     public GameObject lifetxt;
     public GameObject scoretxt;
-
-    //public GameObject life2;
-    //public GameObject life1;
-    public GameObject damageUI;
-    public GameObject life0;
+    public GameObject bloodUI;
+    public GameObject gameOver;
 
     public int level = 1;
     //public float timer = 0f;
@@ -49,21 +46,6 @@ public class GameManager : MonoBehaviour {
 
     void Update()
     {
-        //player's life must only range from 0 to 100
-        //if (playerLife < maxLife)
-        //{
-        //    playerLife += heal * Time.deltaTime;
-        //    if (playerLife > maxLife)
-        //    {
-        //        playerLife = maxLife;
-        //    }
-        //    else if (playerLife <= 0)
-        //    {
-        //        playerLife = 0;
-        //        Debug.Log("Game Over");
-        //    }
-        //}
-
         
         if (playerLife < 0)
         {
@@ -100,9 +82,7 @@ public class GameManager : MonoBehaviour {
         //if player is dead
         if (playerLife <= 0)
         {
-            //life2.SetActive(false);
-            //life1.SetActive(false);
-            life0.SetActive(true);
+            gameOver.SetActive(true);
             StartCoroutine(backToMainMenu());
         }
 

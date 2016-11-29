@@ -110,11 +110,5 @@ public class Mummy : MonoBehaviour
         
     }
 
-    void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            tempGM.GetComponent<GameManager>().playerLife -= 20;
-        }
-    }
+    
 }

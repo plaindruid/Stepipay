@@ -47,6 +47,8 @@ public class TriviaScript : MonoBehaviour
         itemsDisplay.SetActive(false);
         Time.timeScale = 1;
         player.GetComponent<FirstPersonController>().enabled = true;
+        Destroy(trivia);
+        Destroy(itemsDisplay);
         Destroy(gameObject);
     }
 

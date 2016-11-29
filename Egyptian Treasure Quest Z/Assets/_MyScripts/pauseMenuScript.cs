@@ -5,17 +5,18 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class pauseMenuScript : MonoBehaviour
 {
     public GameObject goPauseMenu;
-    public bool isPaused = false;
-    GameObject player;
+    public bool isPaused;
+    public GameObject player;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        isPaused = false;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetButtonDown("Fire2"))
         {
             isPaused = !isPaused;
             goPauseMenu.SetActive(isPaused);
