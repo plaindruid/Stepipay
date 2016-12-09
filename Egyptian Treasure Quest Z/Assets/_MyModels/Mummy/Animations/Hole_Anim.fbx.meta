@@ -161,6 +161,7 @@ ModelImporter:
     7400066: GetDamage_Axe
     7400068: Die_Axe
     7400070: Axe
+    7400072: SearchAnim
     9500000: //RootNode
     13700000: body_1
     13700002: dress_1
@@ -5117,6 +5118,146 @@ ModelImporter:
         weight: 1
       - path: shoulders_hat_4
         weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SearchAnim
+      takeName: Default Take
+      firstFrame: 126
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip
+        weight: 1
+      - path: Armature/Root/Hip/Left_Leg
+        weight: 1
+      - path: Armature/Root/Hip/Left_Leg/Left_Knee
+        weight: 1
+      - path: Armature/Root/Hip/Left_Leg/Left_Knee/Left_Foot
+        weight: 1
+      - path: Armature/Root/Hip/Left_Leg/Left_Knee/Left_Foot/Left_Ball
+        weight: 1
+      - path: Armature/Root/Hip/Left_Leg/Left_Knee/Left_Foot/Left_Ball/Left_Toe
+        weight: 1
+      - path: Armature/Root/Hip/Right_Leg
+        weight: 1
+      - path: Armature/Root/Hip/Right_Leg/Right_Knee
+        weight: 1
+      - path: Armature/Root/Hip/Right_Leg/Right_Knee/Right_Foot
+        weight: 1
+      - path: Armature/Root/Hip/Right_Leg/Right_Knee/Right_Foot/Right_Ball
+        weight: 1
+      - path: Armature/Root/Hip/Right_Leg/Right_Knee/Right_Foot/Right_Ball/Right_Toe
+        weight: 1
+      - path: Armature/Root/Spine_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder/Left_Elbow
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Hand
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Hand/Left_Index
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Hand/Left_Index/Left_Index_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Hand/Left_Index/Left_Index_1/Left_Index_End
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Hand/Left_Thumb_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Hand/Left_Thumb_0/Left_Thumb_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Hand/Left_Thumb_0/Left_Thumb_1/Left_Thumb_End
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Neck_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Neck_0/Neck_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Neck_0/Neck_1/Head
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder/Right_Elbow
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Hand
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Hand/Right_Index
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Hand/Right_Index/Right_Index_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Hand/Right_Index/Right_Index_1/Right_Index_End
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Hand/Right_Thumb_0
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Hand/Right_Thumb_0/Right_Thumb_1
+        weight: 1
+      - path: Armature/Root/Spine_0/Spine_1/Spine_2/Spine_3/Chest/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Hand/Right_Thumb_0/Right_Thumb_1/Right_Thumb_End
+        weight: 1
+      - path: body_1
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: dress_1
+        weight: 0
+      - path: dress_4
+        weight: 0
+      - path: dress_arm_2_Skinned
+        weight: 0
+      - path: fase_1
+        weight: 0
+      - path: group1
+        weight: 0
+      - path: group1/mummy_1
+        weight: 0
+      - path: group1/mummy_2
+        weight: 0
+      - path: group1/mummy_3
+        weight: 0
+      - path: hat_shoulders_1
+        weight: 0
+      - path: hat_shoulders_2_Skinned
+        weight: 0
+      - path: Lamp
+        weight: 0
+      - path: shoulders_hat_4
+        weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
