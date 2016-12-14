@@ -137,7 +137,7 @@ public class ItemScript : MonoBehaviour
     //Ito kung pickup items example potion and Antidotes
     void PickUpItems()
     {
-        if (Heal_player) //Mag hiheal yung player if na ka true yung Heal_playe na flag. Heal nya dipende sa ammount na nilagay mo sa Heal ammount
+        if (Heal_player) //Mag hiheal yung player if na ka true yung Heal_player na flag. Heal nya dipende sa ammount na nilagay mo sa Heal ammount
         {
             StephGameManager.instance.Player_Stat.Heal_player(Heal_Ammount);
         }

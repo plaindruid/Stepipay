@@ -3,6 +3,9 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 public class menuLoader : MonoBehaviour {
 
+    public int seconds;
+    public int sceneIndex;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -11,7 +14,7 @@ public class menuLoader : MonoBehaviour {
 
 	private IEnumerator Countdown()
 	{
-		yield return new WaitForSeconds (4);
-        SceneManager.LoadScene(2);
+		yield return new WaitForSeconds (seconds);
+        SceneManager.LoadScene(sceneIndex);
 	}
 }

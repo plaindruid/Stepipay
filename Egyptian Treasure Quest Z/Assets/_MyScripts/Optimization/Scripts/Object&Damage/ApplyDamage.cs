@@ -37,7 +37,8 @@ public class ApplyDamage : MonoBehaviour
 					Damage_Activated = true;
 					Apply_Damage (DamageWho, col.gameObject);
 				}
-			} else 
+			}
+            else 
 			{
 				Damage_Activated = true;
 				Apply_Damage (DamageWho, col.gameObject); 
