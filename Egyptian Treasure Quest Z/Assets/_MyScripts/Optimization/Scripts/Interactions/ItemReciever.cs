@@ -22,6 +22,11 @@ public class ItemReciever : MonoBehaviour
         {
             CheckIhaveRequiredItems(); 
         }
+        else
+        {
+            TestRequired = false;
+        }
+
     }
 
     //ito yung tatawagin mo sa raycast ng player mo

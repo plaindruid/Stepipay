@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -140,6 +134,7 @@
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\Mummy.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\PortalScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\ShowInfoScript.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\OldScripts\SkipButton.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\StorylineScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\TimerScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\TrapsScript.cs" />
