@@ -22,10 +22,7 @@ public class ItemReciever : MonoBehaviour
         {
             CheckIhaveRequiredItems(); 
         }
-        else
-        {
-            TestRequired = false;
-        }
+        
 
     }
 
@@ -36,6 +33,10 @@ public class ItemReciever : MonoBehaviour
         {
             HasRequired = true;
             Quest_Manager.Steph_quest_manager.Quest_Completion(Quest_id_Required);
+        }
+        else
+        {
+            TestRequired = false;
         }
     }
     public void validate_Items()

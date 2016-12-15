@@ -16,3 +16,6 @@ Cmd: preprocess
   insize=864 outsize=861 ok=1
 Cmd: preprocess
   insize=354771 outsize=354768 ok=1
+Unhandled exception: Protocol error - failed to read correct magic number
+
+Quitting shader compiler process
