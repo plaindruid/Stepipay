@@ -3,21 +3,43 @@ using System.Collections;
 
 public class SaveLoadManager : MonoBehaviour
 {
+    public static SaveLoadManager stageUnlocker;
     public int Stage_ID;
     public SceneDatabase Scene_DB;
     public QuestDatabase Quest_Database;
+    public bool Stage_unlock_already = false;
     // Use this for initialization
 
-
+    void Awake()
+    {
+        if(stageUnlocker == null)
+        {
+            stageUnlocker = this;
+        }
+    }
     void Start()
     {
+        UnlockStage();
+    }
 
+    private void UnlockStage()
+    {
+        foreach (StageMaps s_maps in Scene_DB.Stage_Maps)
+        {
+            if (s_maps.StageID == Stage_ID)
+            {
+                if (s_maps.Activated)
+                {
+                    Stage_unlock_already = true;
+                }
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        CheckStageQuest(Stage_ID);
+        //CheckStageQuest(Stage_ID);
     }
 
     public void CheckStageQuest(int StageID)
@@ -43,6 +65,7 @@ public class SaveLoadManager : MonoBehaviour
                     if (res1 && !res2)
                     {
                         s_maps.Activated = true;
+                        UnlockStage(); 
                     }
                 }
                 else
@@ -75,4 +98,6 @@ public class SaveLoadManager : MonoBehaviour
         }
 
     }
+
+    
 }
