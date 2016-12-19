@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 9b61fd641a0ca0f458255611ef719e8e
+timeCreated: 1474994097
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Area
+    100002: //RootNode
+    100004: Camera
+    100006: Cube
+    100008: Cube.001
+    100010: Cube.002
+    100012: Cube.003
+    100014: Cube.004
+    100016: Cube.005
+    100018: Cube.006
+    100020: Cube.007
+    100022: Hemi
+    100024: Lamp.000
+    100026: Lamp.001
+    100028: Lamp.002
+    100030: Lamp.003
+    100032: Lamp.004
+    100034: Lamp.005
+    100036: Lamp.006
+    100038: Lamp.007
+    100040: Lamp.008
+    100042: Lamp.009
+    100044: Lamp.010
+    100046: Lamp.011
+    100048: Lamp.012
+    100050: Lamp.013
+    100052: Lamp.014
+    100054: Lamp.015
+    100056: Lamp.016
+    100058: Lamp.017
+    100060: Lamp.018
+    100062: Lamp.019
+    100064: Lamp.020
+    100066: Lamp.021
+    100068: Lamp.022
+    100070: Lamp.023
+    100072: Lamp.024
+    100074: Lamp.025
+    100076: Lamp.026
+    100078: Lamp.027
+    100080: Lamp.028
+    100082: Lamp.029
+    100084: Lamp.030
+    100086: Lamp.031
+    100088: Lamp.032
+    100090: Lamp.033
+    100092: Lamp.034
+    100094: Lamp.035
+    100096: Lamp.036
+    100098: Lamp.037
+    100100: Lamp.038
+    100102: Lamp.039
+    100104: Lamp.040
+    100106: Lamp.041
+    100108: Lamp.042
+    100110: Lamp.043
+    100112: Lamp.044
+    100114: Lamp.045
+    100116: Lamp.046
+    100118: Lamp.047
+    100120: Lamp.048
+    100122: Lamp.049
+    100124: Lamp.050
+    100126: Lamp.051
+    100128: Lamp.052
+    100130: Lamp.053
+    100132: Lamp.054
+    100134: Lamp.055
+    100136: Lamp.056
+    100138: Lamp.057
+    100140: Lamp.058
+    100142: Lamp.059
+    100144: torch model
+    100146: Trap Floor 1
+    100148: Trap Floor 2
+    100150: Wall Writtings
+    400000: Area
+    400002: //RootNode
+    400004: Camera
+    400006: Cube
+    400008: Cube.001
+    400010: Cube.002
+    400012: Cube.003
+    400014: Cube.004
+    400016: Cube.005
+    400018: Cube.006
+    400020: Cube.007
+    400022: Hemi
+    400024: Lamp.000
+    400026: Lamp.001
+    400028: Lamp.002
+    400030: Lamp.003
+    400032: Lamp.004
+    400034: Lamp.005
+    400036: Lamp.006
+    400038: Lamp.007
+    400040: Lamp.008
+    400042: Lamp.009
+    400044: Lamp.010
+    400046: Lamp.011
+    400048: Lamp.012
+    400050: Lamp.013
+    400052: Lamp.014
+    400054: Lamp.015
+    400056: Lamp.016
+    400058: Lamp.017
+    400060: Lamp.018
+    400062: Lamp.019
+    400064: Lamp.020
+    400066: Lamp.021
+    400068: Lamp.022
+    400070: Lamp.023
+    400072: Lamp.024
+    400074: Lamp.025
+    400076: Lamp.026
+    400078: Lamp.027
+    400080: Lamp.028
+    400082: Lamp.029
+    400084: Lamp.030
+    400086: Lamp.031
+    400088: Lamp.032
+    400090: Lamp.033
+    400092: Lamp.034
+    400094: Lamp.035
+    400096: Lamp.036
+    400098: Lamp.037
+    400100: Lamp.038
+    400102: Lamp.039
+    400104: Lamp.040
+    400106: Lamp.041
+    400108: Lamp.042
+    400110: Lamp.043
+    400112: Lamp.044
+    400114: Lamp.045
+    400116: Lamp.046
+    400118: Lamp.047
+    400120: Lamp.048
+    400122: Lamp.049
+    400124: Lamp.050
+    400126: Lamp.051
+    400128: Lamp.052
+    400130: Lamp.053
+    400132: Lamp.054
+    400134: Lamp.055
+    400136: Lamp.056
+    400138: Lamp.057
+    400140: Lamp.058
+    400142: Lamp.059
+    400144: torch model
+    400146: Trap Floor 1
+    400148: Trap Floor 2
+    400150: Wall Writtings
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cube.006
+    2300014: Cube.007
+    2300016: torch model
+    2300018: Trap Floor 1
+    2300020: Trap Floor 2
+    2300022: Wall Writtings
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cube.006
+    3300014: Cube.007
+    3300016: torch model
+    3300018: Trap Floor 1
+    3300020: Trap Floor 2
+    3300022: Wall Writtings
+    4300000: Trap Floor 2
+    4300002: Trap Floor 1
+    4300004: Cube.007
+    4300006: Cube.006
+    4300008: Wall Writtings
+    4300010: Cube.005
+    4300012: torch model
+    4300014: Cube.004
+    4300016: Cube.003
+    4300018: Cube.002
+    4300020: Cube.001
+    4300022: Cube
+    6400000: Cube
+    6400002: Cube.001
+    6400004: Cube.002
+    6400006: Cube.003
+    6400008: Cube.004
+    6400010: Cube.005
+    6400012: Cube.006
+    6400014: Cube.007
+    6400016: torch model
+    6400018: Trap Floor 1
+    6400020: Trap Floor 2
+    6400022: Wall Writtings
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
