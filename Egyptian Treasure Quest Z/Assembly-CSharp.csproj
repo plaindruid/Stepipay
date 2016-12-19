@@ -132,8 +132,11 @@
      <Compile Include="Assets\_MyScripts\Optimization\Scripts\DataBase\SceneDatabase.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\ItemReciever.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\ItemScript.cs" />
+     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\LevelSelection.cs" />
+     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\Level_unlocker.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\QuestChecker.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\ResumeScript.cs" />
+     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Managers\LevelSelectionManager.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\Scripts\Managers\QuestUIManager.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\Scripts\Managers\Quest_Manager.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\Scripts\Managers\SaveLoadManager.cs" />

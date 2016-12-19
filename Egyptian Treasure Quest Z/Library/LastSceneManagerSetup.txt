@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/_MyScenes/Stage3.unity
+=======
 - path: Assets/_MyScenes/Stage1.unity
+>>>>>>> ForAlex
   isLoaded: 1
   isActive: 1
