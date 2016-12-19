@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b737f15962a4d214abc107e4f07779ab
 timeCreated: 1482118566
+=======
+guid: d401991c397fa6a41a3d6b534ab4a3b2
+timeCreated: 1482106978
+>>>>>>> ForAlex
 licenseType: Pro
 MonoImporter:
   serializedVersion: 2

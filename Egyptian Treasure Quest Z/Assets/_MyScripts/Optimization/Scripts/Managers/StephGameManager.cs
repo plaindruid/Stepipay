@@ -81,7 +81,7 @@ public class StephGameManager : MonoBehaviour
     {
         if (Win)
         {
-            //Set_Score();
+            Set_Score();
         }
 
         if (Lose)
@@ -90,7 +90,7 @@ public class StephGameManager : MonoBehaviour
 			GameoverUI.SetActive (true);
 			GameUI.SetActive (false); 
 			Invoke ("Reset_game", 2);
-            //Set_Score();
+            Set_Score();
         }
     }
 
