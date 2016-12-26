@@ -29,6 +29,7 @@ public class ItemScript : MonoBehaviour
     public bool Antidote = false;
     public bool Activated = false;
     public double Score;
+    public AudioSource itemSound;
     float AlphaValue;
     bool FadeMat = false;
     Color MatColor;
@@ -148,7 +149,11 @@ public class ItemScript : MonoBehaviour
 
         if(Score > 0)
         {
-            StephGameManager.instance.Score += Score;  
+            StephGameManager.instance.Score += Score;
+            if (itemSound != null)
+            {
+                itemSound.Play();
+            }
         }
         HideItems(); 
     }

@@ -118,6 +118,7 @@
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\pauseMenuScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\pickUpScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\placeItemOnHolder.cs" />
+     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\soundScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\splashScreenScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\unlockTomb.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\RayCastSteph.cs" />
