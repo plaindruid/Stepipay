@@ -191,7 +191,7 @@ public class StephGameManager : MonoBehaviour
 	void Reset_game()
 	{
 		// lagay ng pa change scene
-		SceneManager.LoadScene(3);
+		SceneManager.LoadScene("Menu");
 		Quest_Manager.Steph_quest_manager.DestroyQuestManager (); 
 		Destroy (gameObject);
 	}

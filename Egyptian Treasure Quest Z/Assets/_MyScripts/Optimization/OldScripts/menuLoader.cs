@@ -4,9 +4,9 @@ using UnityEngine.SceneManagement;
 public class menuLoader : MonoBehaviour {
 
     public int seconds;
-    public int sceneIndex;
+    public string sceneName;
 
-	// Use this for initialization
+	
 	void Start () 
 	{
 		StartCoroutine ("Countdown");
@@ -15,6 +15,6 @@ public class menuLoader : MonoBehaviour {
 	private IEnumerator Countdown()
 	{
 		yield return new WaitForSeconds (seconds);
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(sceneName);
 	}
 }

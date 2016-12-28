@@ -20,9 +20,9 @@ public class Level_unlocker : MonoBehaviour
     {
         if(col.tag == "Player")
         {
-            if(!SaveLoadManager .stageUnlocker .Stage_unlock_already )
+            if(!SaveLoadManager.stageUnlocker .Stage_unlock_already )
             {
-                SaveLoadManager .stageUnlocker.CheckStageQuest(SaveLoadManager.stageUnlocker.Stage_ID);  
+                SaveLoadManager.stageUnlocker.CheckStageQuest(SaveLoadManager.stageUnlocker.Stage_ID);  
             }
         }
     }

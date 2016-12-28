@@ -25,7 +25,7 @@ public class mainMenuScript : MonoBehaviour
 
     public void pressStart()
     {
-        SceneManager.LoadScene("Levels");
+        SceneManager.LoadScene("storylineScene");
     }
 
     public void pressAbout()
