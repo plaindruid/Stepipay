@@ -47,7 +47,12 @@ public class QuestList
     public Sprite Image;
 
     [Tooltip("Prefab ng Item")]
-    public GameObject Prefab_Object;     
+    public GameObject Prefab_Object;    
+
+	[Tooltip("Gallery Index")]
+	public bool Gallery_opened = false; 
+		
+
     
     
     public QuestList()

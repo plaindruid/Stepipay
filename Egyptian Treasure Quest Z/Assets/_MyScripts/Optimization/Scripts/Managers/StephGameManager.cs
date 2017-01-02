@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;  
 
 
 public class StephGameManager : MonoBehaviour
@@ -26,6 +27,8 @@ public class StephGameManager : MonoBehaviour
     public GameObject UICanvas;
 
 	public GameObject GameoverUI;
+	public GameObject ScoreUIGO;
+	public bool PlayerDead = false;
     
     GameObject LifegauageIndicator;
     public bool Win = false,Lose = false;
@@ -68,11 +71,13 @@ public class StephGameManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        Get_PlayerStat();
-
-        GameStatus();
+	{
+		if (!PlayerDead)
+		{
+		Get_PlayerStat ();
+		GameStatus ();
 		Display_Score ();
+		}
 
 	
     }
@@ -81,15 +86,17 @@ public class StephGameManager : MonoBehaviour
     {
         if (Win)
         {
-            Set_Score();
+			Set_Score();
+			Display_ScoreUI(); 
         }
 
         if (Lose)
         {
+			PlayerDead = true;
 			Lose = false;
 			GameoverUI.SetActive (true);
 			GameUI.SetActive (false); 
-			Invoke ("Reset_game", 2);
+			Invoke ("Display_ScoreUI", 2);
             Set_Score();
         }
     }
@@ -187,6 +194,25 @@ public class StephGameManager : MonoBehaviour
             } 
         }
     }
+
+	void Display_ScoreUI()
+	{
+		Player.GetComponent<FirstPersonController> ().enabled = false;    
+		if (Win) 
+		{
+			Win = false;
+			ScoreUIGO.SetActive (true); 
+			GameUI.SetActive (false); 
+		}
+		else 
+		{
+		
+			GameoverUI.SetActive (false);
+			ScoreUIGO.SetActive (true); 
+			Invoke ("Reset_game", 5);
+		}
+
+	}
 
 	void Reset_game()
 	{

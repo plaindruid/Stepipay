@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿/// <summary>
+/// Automatic umaandar ito pag na enabled ang script or na setActive yung Game Object na nilalagyan nito
+/// </summary>
+
+using UnityEngine;
 using System.Collections;
 
 public class TimerObjective : MonoBehaviour
@@ -12,7 +16,7 @@ public class TimerObjective : MonoBehaviour
 
     public TypeTimer Timer_Type;
 
-    public float Secs = 0;
+    float Secs = 0;
 
     bool Timer_activated = false;
 
@@ -55,6 +59,7 @@ public class TimerObjective : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		
         switch(Timer_Type)
         {
             case TypeTimer.Increasing: IncreasingTime();

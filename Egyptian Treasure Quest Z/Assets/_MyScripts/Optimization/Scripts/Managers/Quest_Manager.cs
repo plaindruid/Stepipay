@@ -8,6 +8,10 @@ public class Quest_Manager : MonoBehaviour
 
     public bool Reset_Quest = false;
 
+	[Tooltip("Kung gusto mo totally reset including Index for Gallery")]
+	public bool TotallyReset = false;
+
+
 
     #region For Events kung nag update yung quest - wag mo lang to pansinin kung hindi mo pa naiintindihan
     public int Quest_ID_Updated = 0;
@@ -40,6 +44,11 @@ public class Quest_Manager : MonoBehaviour
         {
             Reset_All_Quest(); 
         }
+
+		if (TotallyReset) 
+		{
+			ResetTotally_Quest ();
+		}
     }
 
     #region Methods ng Quest manager
@@ -94,6 +103,7 @@ public class Quest_Manager : MonoBehaviour
                 {
                     Quest_ID_Updated = ql.Quest_ID;
                     ql.Quest_Status = QuestList._Quest_Status.Completed;
+					ql.Gallery_opened = true;
                     CompletedQuest(); 
                 }
             }
@@ -116,6 +126,14 @@ public class Quest_Manager : MonoBehaviour
         } 
     }
 
+	void ResetTotally_Quest()
+	{
+		foreach(QuestList ql in Quest_Database.Quests)
+		{
+			ql.Quest_Status = QuestList._Quest_Status.NotStarted; 
+			ql.Gallery_opened = false;
+		} 
+	}
     public Sprite get_picture()
     {
         Sprite imageReturn = null;
