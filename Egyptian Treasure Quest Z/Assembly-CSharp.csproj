@@ -101,6 +101,7 @@
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\CountdownLoadScene.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\GameManager.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\IncreaseDecreaseLife.cs" />
+     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\InstructionsScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\ItemBehavior.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\JumpScareScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\LoadLevel.cs" />
