@@ -31,7 +31,7 @@ public class ButtonControllers : MonoBehaviour
         {
             UnHide_Player();
         }
-        if((Input.GetKeyDown(PauseKey)))
+        if((Input.GetKeyDown(PauseKey)) || (Input.GetButtonDown("Fire2")))
         {
             Paused_Game();
         }

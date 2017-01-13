@@ -12,6 +12,8 @@ public class GalleryImagePic : MonoBehaviour
 	public QuestDatabase Quest_Database;
 	public int Quest_ID;
 	public Sprite Lock_image; 
+	public Image ItemDescription; //ilalagay mo dito yung textbox na component
+    public Sprite Lock_desc;
 	// Use this for initialization
 	void Start () 
 	{
@@ -59,6 +61,8 @@ public class GalleryImagePic : MonoBehaviour
 		if (GetComponent<Image> () != null) 
 		{
 			GetComponent<Image> ().sprite = get_picture (); 
+
+
 		} 
 		else
 		{
@@ -78,7 +82,30 @@ public class GalleryImagePic : MonoBehaviour
 			}
 		}
 		return imageReturn; 
-
 	}
 
+	Sprite get_Text()
+	{
+		Sprite  textreturn = null;
+		foreach (QuestList ql in Quest_Database.Quests)
+		{
+			if (ql.Quest_ID == Quest_ID)
+			{
+                if (ql.Gallery_opened)
+                {
+                    textreturn = ql.QuestDescription;
+                }
+                else
+                {
+                    textreturn = Lock_desc;
+                }
+			}
+		}
+		return textreturn; 
+	}
+
+	public void dispDescription()
+	{
+		ItemDescription.sprite = get_Text(); 
+	}
 }

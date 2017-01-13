@@ -140,6 +140,7 @@ public class StephGameManager : MonoBehaviour
             {
                 GameUI.SetActive(true);
                 PausedUI.SetActive(false);
+                InventoryUI.SetActive(false);
             }
 
             Time.timeScale = 1;
@@ -156,15 +157,19 @@ public class StephGameManager : MonoBehaviour
         {
             PausedUI = UIManager.UI_manager.PausedUI;
         }
+        if (InventoryUI == null)
+        {
+            InventoryUI = UIManager.UI_manager.InvetoryUI;
+        }
     }
 
 
     public void QuitGame()
     {
         Time.timeScale = 1;
-
+        SceneManager.LoadScene("Menu");
         //Ikaw na dito mag lagay ng pang quit mo dahil luma pa ito
-        Application.Quit();
+        //Application.Quit();
     }
 
     public void Inventory()
@@ -173,6 +178,8 @@ public class StephGameManager : MonoBehaviour
         {
             GameUI.SetActive(false);
             PausedUI.SetActive(false);
+            InventoryUI.SetActive(true);
+            GameObject.Find("EventSystem").GetComponent<EventSystem>().SetSelectedGameObject(GameObject.Find("item_pic1").gameObject);
         }
     }
 

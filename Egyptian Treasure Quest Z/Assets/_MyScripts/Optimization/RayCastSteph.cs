@@ -35,7 +35,7 @@ public class RayCastSteph : MonoBehaviour
                     {
                         HandIndicator.SetActive(true);
                     }
-                    if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.E)) // Dito maglalagay ng button or key nagagamitin para kumuha ng object
+                    if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.E) || Input.GetButtonDown("Fire1"))// Dito maglalagay ng button or key nagagamitin para kumuha ng object
                     {
                         hit.transform.GetComponent<ItemScript>().Obtained = true;
                     }
@@ -48,7 +48,7 @@ public class RayCastSteph : MonoBehaviour
                     {
                         HandIndicator.SetActive(true);
                     }
-                    if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.E)) // Dito maglalagay ng button or key nagagamitin para Ilagay yung object sa reciever
+                    if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.E) || Input.GetButtonDown("Fire1")) // Dito maglalagay ng button or key nagagamitin para Ilagay yung object sa reciever
                     {
                         hit.transform.GetComponent<ItemReciever>().TestRequired = true;
                     }

@@ -20,12 +20,27 @@ public class mainMenuScript : MonoBehaviour
         sounds = GameObject.FindGameObjectsWithTag("AudioSource");
     }
 
+    void Update()
+    {
+        if (Input.GetButtonDown("Fire2") || Input.GetButtonDown("Fire3") || Input.GetButtonDown("Jump"))
+        {
+            //GameObject.Find("EventSystem").GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(GameObject.Find("btn_Start"));
+            pressBack();
+        }
+        
+    }
+
     
 	
 
     public void pressStart()
     {
         SceneManager.LoadScene("storylineScene");
+    }
+
+    public void pressLoadGame()
+    {
+        SceneManager.LoadScene("Level_Scene");
     }
 
     public void pressAbout()

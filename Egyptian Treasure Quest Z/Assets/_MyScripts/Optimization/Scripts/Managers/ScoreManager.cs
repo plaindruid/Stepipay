@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
+    public Text player_score;
+
     public Text[] ScoresTxt;
     public HighScoreDB ScoreDB;
     int scoreIndex = 0;
@@ -15,7 +17,9 @@ public class ScoreManager : MonoBehaviour
         {
             ScoresTxt[scoreIndex].text = sc.Score.ToString() ;
             scoreIndex++;
-        } 
+        }
+
+        player_score.text = StephGameManager.instance.Score.ToString();
     }
 
     void OnDisable()

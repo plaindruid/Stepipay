@@ -5,14 +5,10 @@ using UnityEngine.SceneManagement;
 //for loading scene
 public class LoadLevel : MonoBehaviour {
 
-    public int level;
-    public Transform playerPosition;
-    public GameObject timer;
+    public string sceneName;
 
     void Update()
     {
-        timer = GameObject.FindGameObjectWithTag("timer");
-
         
     }
 
@@ -20,13 +16,7 @@ public class LoadLevel : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            if (timer != null)
-            {
-                timer.GetComponent<TimerScript>().stopTimer = true;
-            }
-            
-            SceneManager.LoadScene(level);
-            other.transform.localPosition = playerPosition.localPosition;
+            SceneManager.LoadScene(sceneName);
         }
     }
 }

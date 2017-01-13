@@ -15,6 +15,7 @@ public class ResumeScript : MonoBehaviour
 
     public void Inventory()
     {
-
+        StephGameManager.instance.Inventory();
     }
+    
 }

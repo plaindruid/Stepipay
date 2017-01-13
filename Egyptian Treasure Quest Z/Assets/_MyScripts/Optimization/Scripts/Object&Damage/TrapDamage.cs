@@ -28,7 +28,7 @@ public class TrapDamage : MonoBehaviour
 		{
 			if (!CanDamageEnemy) {
 				if (col.tag == "Player" && !Damage_done) {
-					Damage_done = true;
+					//Damage_done = true;
 					switch (TrapType) {
 					case trapType.DamageTrap:
 						col.GetComponent<PlayerStats> ().Take_Damage (Damage);
@@ -49,7 +49,7 @@ public class TrapDamage : MonoBehaviour
 			{
 				if (col.tag == "Player" && !Damage_done)
 				{
-					Damage_done = true;
+					//Damage_done = true;
 					switch (TrapType) {
 					case trapType.DamageTrap:
 						col.GetComponent<PlayerStats> ().Take_Damage (Damage);
@@ -74,7 +74,7 @@ public class TrapDamage : MonoBehaviour
 		} 
 		else 
 		{
-			Damage_done = true; 
+			//Damage_done = true; 
 		}
 			
     }

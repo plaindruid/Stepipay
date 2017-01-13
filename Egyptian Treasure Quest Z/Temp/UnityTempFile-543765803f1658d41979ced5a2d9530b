@@ -1,0 +1,212 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:Assets/Plugins/Google.ProtocolBuffers.dll
+-define:UNITY_5_3_3
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:UNITY_PRO_LICENSE
+-define:CROSS_PLATFORM_INPUT
+Assets/GoogleVR/DemoScenes/ControllerDemo/ControllerDebugInfo.cs
+Assets/GoogleVR/DemoScenes/ControllerDemo/ControllerDemoManager.cs
+Assets/GoogleVR/DemoScenes/HeadsetDemo/FPS.cs
+Assets/GoogleVR/DemoScenes/HeadsetDemo/Teleport.cs
+Assets/GoogleVR/Legacy/Scripts/GvrHead.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/GvrCameraUtils.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/GvrEye.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/GvrPostRender.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/GvrPreRender.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/GvrProfile.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/StereoController.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/StereoRenderEffect.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/AndroidDevice.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/BaseAndroidDevice.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/BaseVRDevice.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/EditorDevice.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/GvrDevice.cs
+Assets/GoogleVR/Legacy/Scripts/Internal/VRDevices/iOSDevice.cs
+Assets/GoogleVR/Scripts/Audio/GvrAudio.cs
+Assets/GoogleVR/Scripts/Audio/GvrAudioListener.cs
+Assets/GoogleVR/Scripts/Audio/GvrAudioRoom.cs
+Assets/GoogleVR/Scripts/Audio/GvrAudioSoundfield.cs
+Assets/GoogleVR/Scripts/Audio/GvrAudioSource.cs
+Assets/GoogleVR/Scripts/Controller/GvrController.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs
+Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs
+Assets/GoogleVR/Scripts/GazeInputModule.cs
+Assets/GoogleVR/Scripts/GvrViewer.cs
+Assets/GoogleVR/Scripts/Pose3D.cs
+Assets/GoogleVR/Scripts/UI/GvrGaze.cs
+Assets/GoogleVR/Scripts/UI/GvrReticle.cs
+Assets/GoogleVR/Scripts/UI/IGvrGazePointer.cs
+Assets/GoogleVR/Scripts/UI/IGvrGazeResponder.cs
+"Assets/_MyModels/Mummy/C#/Axe.cs"
+"Assets/_MyModels/Mummy/C#/BaseAnimController.cs"
+"Assets/_MyModels/Mummy/C#/CameraController.cs"
+"Assets/_MyModels/Mummy/C#/MainController.cs"
+"Assets/_MyModels/Mummy/C#/Spear.cs"
+"Assets/_MyModels/Mummy/C#/Spear_Shield.cs"
+"Assets/_MyModels/Mummy/C#/Sword_Shield.cs"
+"Assets/_MyModels/Mummy/C#/Weaponless.cs"
+"Assets/_MyScripts/For Player's Health/PHealth.cs"
+Assets/_MyScripts/Optimization/OldScripts/AI.cs
+Assets/_MyScripts/Optimization/OldScripts/Coroutine.cs
+Assets/_MyScripts/Optimization/OldScripts/CountdownLoadScene.cs
+Assets/_MyScripts/Optimization/OldScripts/GameManager.cs
+Assets/_MyScripts/Optimization/OldScripts/IncreaseDecreaseLife.cs
+Assets/_MyScripts/Optimization/OldScripts/ItemBehavior.cs
+Assets/_MyScripts/Optimization/OldScripts/JumpScareScript.cs
+Assets/_MyScripts/Optimization/OldScripts/LoadLevel.cs
+Assets/_MyScripts/Optimization/OldScripts/Mummy.cs
+Assets/_MyScripts/Optimization/OldScripts/PortalScript.cs
+Assets/_MyScripts/Optimization/OldScripts/ShowInfoScript.cs
+Assets/_MyScripts/Optimization/OldScripts/SkipButton.cs
+Assets/_MyScripts/Optimization/OldScripts/StorylineScript.cs
+Assets/_MyScripts/Optimization/OldScripts/TimerScript.cs
+Assets/_MyScripts/Optimization/OldScripts/TimerSlider.cs
+Assets/_MyScripts/Optimization/OldScripts/TrapsScript.cs
+Assets/_MyScripts/Optimization/OldScripts/TrapsTrigger.cs
+Assets/_MyScripts/Optimization/OldScripts/TriviaScript.cs
+Assets/_MyScripts/Optimization/OldScripts/mainMenuScript.cs
+Assets/_MyScripts/Optimization/OldScripts/menuLoader.cs
+Assets/_MyScripts/Optimization/OldScripts/pauseMenuScript.cs
+Assets/_MyScripts/Optimization/OldScripts/pickUpScript.cs
+Assets/_MyScripts/Optimization/OldScripts/placeItemOnHolder.cs
+Assets/_MyScripts/Optimization/OldScripts/soundScript.cs
+Assets/_MyScripts/Optimization/OldScripts/splashScreenScript.cs
+Assets/_MyScripts/Optimization/OldScripts/unlockTomb.cs
+Assets/_MyScripts/Optimization/RayCastSteph.cs
+Assets/_MyScripts/Optimization/Scripts/Controllers/ButtonControllers.cs
+Assets/_MyScripts/Optimization/Scripts/Controllers/EnemyAI.cs
+Assets/_MyScripts/Optimization/Scripts/Controllers/EnemyEyes.cs
+Assets/_MyScripts/Optimization/Scripts/Controllers/EventControllers.cs
+Assets/_MyScripts/Optimization/Scripts/Controllers/PlayerAnimations.cs
+Assets/_MyScripts/Optimization/Scripts/DataBase/HighScoreDB.cs
+Assets/_MyScripts/Optimization/Scripts/DataBase/LevelUnlockDB.cs
+Assets/_MyScripts/Optimization/Scripts/DataBase/QuestDatabase.cs
+Assets/_MyScripts/Optimization/Scripts/DataBase/SceneDatabase.cs
+Assets/_MyScripts/Optimization/Scripts/Interactions/GalleryImagePic.cs
+Assets/_MyScripts/Optimization/Scripts/Interactions/ItemReciever.cs
+Assets/_MyScripts/Optimization/Scripts/Interactions/ItemScript.cs
+Assets/_MyScripts/Optimization/Scripts/Interactions/LevelSelection.cs
+Assets/_MyScripts/Optimization/Scripts/Interactions/Level_unlocker.cs
+Assets/_MyScripts/Optimization/Scripts/Interactions/QuestChecker.cs
+Assets/_MyScripts/Optimization/Scripts/Interactions/ResumeScript.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/LevelSelectionManager.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/QuestUIManager.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/Quest_Manager.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/SaveLoadManager.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/SceneLoader.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/ScoreManager.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/StageInfo.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/StephGameManager.cs
+Assets/_MyScripts/Optimization/Scripts/Managers/UIManager.cs
+"Assets/_MyScripts/Optimization/Scripts/Object&Damage/ApplyDamage.cs"
+"Assets/_MyScripts/Optimization/Scripts/Object&Damage/BossEncounterAchievement.cs"
+"Assets/_MyScripts/Optimization/Scripts/Object&Damage/DeathByTimer.cs"
+"Assets/_MyScripts/Optimization/Scripts/Object&Damage/TimerAchievementSteam.cs"
+"Assets/_MyScripts/Optimization/Scripts/Object&Damage/TimerObjective.cs"
+"Assets/_MyScripts/Optimization/Scripts/Object&Damage/TrapDamage.cs"
+Assets/_MyScripts/Optimization/Scripts/PlayerScripts/PlayerStats.cs
+"Assets/_MyScripts/Unused Scripts/ArtifactBehavior.cs"
+"Assets/_MyScripts/Unused Scripts/ArtifactManager.cs"
+"Assets/_MyScripts/Unused Scripts/ButtonScript.cs"
+"Assets/_MyScripts/Unused Scripts/GoToInventory.cs"
+"Assets/_MyScripts/Unused Scripts/HealthBarScript.cs"
+"Assets/_MyScripts/Unused Scripts/Inventory.cs"
+"Assets/_MyScripts/Unused Scripts/KINUKUHANANSCRIPT.cs"
+"Assets/_MyScripts/Unused Scripts/MedkitScript.cs"
+"Assets/_MyScripts/Unused Scripts/NavMeshScript.cs"
+"Assets/_MyScripts/Unused Scripts/PickUpItem.cs"
+"Assets/_MyScripts/Unused Scripts/PlaceArtifact.cs"
+"Assets/_MyScripts/Unused Scripts/QuestScript.cs"
+"Assets/_MyScripts/Unused Scripts/Stat.cs"
+"Assets/_MyScripts/Unused Scripts/TrapsTiming.cs"
+"Assets/_MyScripts/Unused Scripts/TrapsTiming2.cs"
+"Assets/_MyScripts/Unused Scripts/TreasureBehavior.cs"
+"Assets/_MyScripts/Unused Scripts/barScript.cs"
+"Assets/_MyScripts/Unused Scripts/doorScript.cs"
+"Assets/_MyScripts/Unused Scripts/fading.cs"
+"Assets/_MyScripts/Unused Scripts/interactiveScript.cs"
+"Assets/_MyScripts/Unused Scripts/itemPickupEffect.cs"
+"Assets/_MyScripts/Unused Scripts/keyBehavior.cs"
+"Assets/_MyScripts/Unused Scripts/menuScript.cs"
+"Assets/_MyScripts/Unused Scripts/playerHealth.cs"
+"Assets/_MyScripts/Unused Scripts/portalToLobby.cs"
+"Assets/_MyScripts/Unused Scripts/spawnScript.cs"
+"Assets/_MyScripts/Unused Scripts/underWaterEffect.cs"
+"Assets/_MyScripts/Unused Scripts/waterDamage.cs"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
