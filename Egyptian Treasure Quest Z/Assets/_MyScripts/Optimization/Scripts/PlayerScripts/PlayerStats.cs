@@ -131,7 +131,7 @@ public class PlayerStats : MonoBehaviour
 
     public void Heal_player(float Heal_Ammount)
     {
-        if(_player_life_Gauge < 100)
+        if(_player_life_Gauge > 100)
         {
             _player_life_Gauge = 100;
         }

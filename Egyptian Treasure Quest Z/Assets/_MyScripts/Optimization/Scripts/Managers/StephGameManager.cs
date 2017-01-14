@@ -51,7 +51,7 @@ public class StephGameManager : MonoBehaviour
 		if (instance == null) 
 		{
 			instance = this;
-			DontDestroyOnLoad (gameObject);
+			//DontDestroyOnLoad (gameObject);
 		} 
 		else 
 		{
@@ -130,6 +130,7 @@ public class StephGameManager : MonoBehaviour
 
 
             Time.timeScale = 0;
+            Player.GetComponent<FirstPersonController>().enabled = false;
 
         }
         else
@@ -144,6 +145,7 @@ public class StephGameManager : MonoBehaviour
             }
 
             Time.timeScale = 1;
+            Player.GetComponent<FirstPersonController>().enabled = true;
         }
     }
 
@@ -167,6 +169,7 @@ public class StephGameManager : MonoBehaviour
     public void QuitGame()
     {
         Time.timeScale = 1;
+        Player.GetComponent<FirstPersonController>().enabled = true;
         SceneManager.LoadScene("Menu");
         //Ikaw na dito mag lagay ng pang quit mo dahil luma pa ito
         //Application.Quit();

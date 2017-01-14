@@ -54,12 +54,12 @@ TextureImporter:
     compressionQuality: 50
     allowsAlphaSplitting: 0
   - buildTarget: Web
-    maxTextureSize: 512
+    maxTextureSize: 2048
     textureFormat: -1
     compressionQuality: 50
     allowsAlphaSplitting: 0
   - buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     textureFormat: -1
     compressionQuality: 50
     allowsAlphaSplitting: 0
