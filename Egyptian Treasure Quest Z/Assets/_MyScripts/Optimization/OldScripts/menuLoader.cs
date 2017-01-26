@@ -5,6 +5,7 @@ public class menuLoader : MonoBehaviour {
 
     public int seconds;
     public string sceneName;
+    public int sceneIndex;
 
 	
 	void Start () 
@@ -15,6 +16,7 @@ public class menuLoader : MonoBehaviour {
 	private IEnumerator Countdown()
 	{
 		yield return new WaitForSeconds (seconds);
-        SceneManager.LoadScene(sceneName);
+        //SceneManager.LoadScene(sceneName);
+        LoadingScreenManager.LoadScene(sceneIndex);
 	}
 }

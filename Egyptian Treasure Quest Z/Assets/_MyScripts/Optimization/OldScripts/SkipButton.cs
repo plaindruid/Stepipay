@@ -21,6 +21,7 @@ public class SkipButton : MonoBehaviour
 
     public void pressSkip()
     {
-        SceneManager.LoadScene("Level_Scene");
+        //SceneManager.LoadScene("Level_Scene");
+        LoadingScreenManager.LoadScene(5);
     }
 }

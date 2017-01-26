@@ -4,6 +4,7 @@ using System.Collections;
 public class SceneLoader : MonoBehaviour {
 
 	public string SceneName;
+    public int sceneIndex;
 
 	public enum Activation_type
 	{
@@ -28,14 +29,15 @@ public class SceneLoader : MonoBehaviour {
 		if (col.tag == "Player") 
 		{
 			StephGameManager.instance.Win = true;
-			Invoke ("Change_Scene", 3); 
+			Invoke ("Change_Scene", 4); 
 		}
 				
 	}
 
 	void Change_Scene()
 	{
-		UnityEngine.SceneManagement.SceneManager.LoadScene (SceneName);
+        //UnityEngine.SceneManagement.SceneManager.LoadScene (SceneName);
+        LoadingScreenManager.LoadScene(sceneIndex);
 	}
 
 

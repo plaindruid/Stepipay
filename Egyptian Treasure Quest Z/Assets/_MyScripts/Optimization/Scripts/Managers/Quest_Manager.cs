@@ -30,7 +30,7 @@ public class Quest_Manager : MonoBehaviour
         if (Steph_quest_manager == null)
         {
             Steph_quest_manager = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
         else
         {

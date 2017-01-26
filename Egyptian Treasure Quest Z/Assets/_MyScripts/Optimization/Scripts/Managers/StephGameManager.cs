@@ -28,7 +28,8 @@ public class StephGameManager : MonoBehaviour
 
 	public GameObject GameoverUI;
 	public GameObject ScoreUIGO;
-	public bool PlayerDead = false;
+    public GameObject timerUI;
+    public bool PlayerDead = false;
     
     GameObject LifegauageIndicator;
     public bool Win = false,Lose = false;
@@ -96,7 +97,7 @@ public class StephGameManager : MonoBehaviour
 			Lose = false;
 			GameoverUI.SetActive (true);
 			GameUI.SetActive (false); 
-			Invoke ("Display_ScoreUI", 2);
+			Invoke ("Display_ScoreUI", 4);
             Set_Score();
         }
     }
@@ -170,7 +171,8 @@ public class StephGameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         Player.GetComponent<FirstPersonController>().enabled = true;
-        SceneManager.LoadScene("Menu");
+        //SceneManager.LoadScene("Menu");
+        LoadingScreenManager.LoadScene(3);
         //Ikaw na dito mag lagay ng pang quit mo dahil luma pa ito
         //Application.Quit();
     }
@@ -211,6 +213,7 @@ public class StephGameManager : MonoBehaviour
 		if (Win) 
 		{
 			Win = false;
+            timerUI.SetActive(false);
 			ScoreUIGO.SetActive (true); 
 			GameUI.SetActive (false); 
 		}
@@ -226,8 +229,9 @@ public class StephGameManager : MonoBehaviour
 
 	void Reset_game()
 	{
-		// lagay ng pa change scene
-		SceneManager.LoadScene("Menu");
+        // lagay ng pa change scene
+        //SceneManager.LoadScene("Menu");
+        LoadingScreenManager.LoadScene(3);
 		Quest_Manager.Steph_quest_manager.DestroyQuestManager (); 
 		Destroy (gameObject);
 	}

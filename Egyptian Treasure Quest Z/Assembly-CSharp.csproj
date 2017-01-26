@@ -105,9 +105,11 @@
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\ItemBehavior.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\JumpScareScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\LoadLevel.cs" />
+     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\LoadingScreenManager.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\Mummy.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\PortalScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\RandomScript.cs" />
+     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\ResetQuests.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\ShowInfoScript.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\SkipButton.cs" />
      <Compile Include="Assets\_MyScripts\Optimization\OldScripts\StorylineScript.cs" />

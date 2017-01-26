@@ -10,14 +10,16 @@ public class InstructionsScript : MonoBehaviour
     public int minPage;
     public int maxPage;
     public string sceneToLoad;
-    public Button btn_Next;
-    public Button btn_Prev;
-    public Button btn_Skip;
+    public int sceneIndex;
+    public GameObject btn_Next;
+    public GameObject btn_Prev;
+    public GameObject btn_Skip;
 
     
     void Start()
     {
         currentPage = 0;
+        GameObject.Find("EventSystem").GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(GameObject.Find("btn_Skip"));
     }
 
     
@@ -27,20 +29,24 @@ public class InstructionsScript : MonoBehaviour
 
         if (currentPage <= minPage) //pag wala na previous page
         {
-            btn_Prev.enabled = false;
+            btn_Prev.SetActive(false);
+            GameObject.Find("EventSystem").GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(GameObject.Find("btn_Next"));
+            
         }
         else if (currentPage > minPage)
         {
-            btn_Prev.enabled = true;
+            btn_Prev.SetActive(true);
         }
 
         if (currentPage >= maxPage) //pag wala na next page
         {
-            btn_Next.enabled = false;
+            btn_Next.SetActive(false);
+            GameObject.Find("EventSystem").GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(GameObject.Find("btn_Skip"));
+            
         }
         else if (currentPage < maxPage)
         {
-            btn_Next.enabled = true;
+            btn_Next.SetActive(true);
         }
 
         if (Input.GetButtonDown("Fire2") || Input.GetButtonDown("Fire3") || Input.GetButtonDown("Jump"))
@@ -65,6 +71,7 @@ public class InstructionsScript : MonoBehaviour
 
     public void click_Skip()
     {
-        SceneManager.LoadScene(sceneToLoad);
+        //SceneManager.LoadScene(sceneToLoad);
+        LoadingScreenManager.LoadScene(sceneIndex);
     }
 }

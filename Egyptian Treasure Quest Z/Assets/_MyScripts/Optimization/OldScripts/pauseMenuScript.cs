@@ -49,6 +49,7 @@ public class pauseMenuScript : MonoBehaviour
     {
         Time.timeScale = 1;
         player.GetComponent<FirstPersonController>().enabled = true;
-        SceneManager.LoadScene("Menu");
+        //SceneManager.LoadScene("Menu");
+        LoadingScreenManager.LoadScene(3);
     }
 }

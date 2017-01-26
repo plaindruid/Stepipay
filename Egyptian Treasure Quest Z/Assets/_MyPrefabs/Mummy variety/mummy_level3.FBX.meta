@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: b5887b1cbe968624485850c3a039eebf
+timeCreated: 1485402263
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: body_1
+    100004: Camera
+    100006: Chest
+    100008: dress_1
+    100010: dress_4
+    100012: dress_arm_2_Skinned
+    100014: fase_1
+    100016: group1
+    100018: hat_shoulders_1
+    100020: hat_shoulders_2_Skinned
+    100022: Head
+    100024: Hip
+    100026: Lamp
+    100028: Left_Ball
+    100030: Left_Clavicle
+    100032: Left_Elbow
+    100034: Left_Foot
+    100036: Left_Hand
+    100038: Left_Index
+    100040: Left_Index_1
+    100042: Left_Index_End
+    100044: Left_Knee
+    100046: Left_Leg
+    100048: Left_Shoulder
+    100050: Left_Thumb_0
+    100052: Left_Thumb_1
+    100054: Left_Thumb_End
+    100056: Left_Toe
+    100058: mummy_1
+    100060: mummy_2
+    100062: mummy_3
+    100064: //RootNode
+    100066: Neck_0
+    100068: Neck_1
+    100070: Right_Ball
+    100072: Right_Clavicle
+    100074: Right_Elbow
+    100076: Right_Foot
+    100078: Right_Hand
+    100080: Right_Index
+    100082: Right_Index_1
+    100084: Right_Index_End
+    100086: Right_Knee
+    100088: Right_Leg
+    100090: Right_Shoulder
+    100092: Right_Thumb_0
+    100094: Right_Thumb_1
+    100096: Right_Thumb_End
+    100098: Right_Toe
+    100100: Root
+    100102: shoulders_hat_4
+    100104: Spine_0
+    100106: Spine_1
+    100108: Spine_2
+    100110: Spine_3
+    400000: Armature
+    400002: body_1
+    400004: Camera
+    400006: Chest
+    400008: dress_1
+    400010: dress_4
+    400012: dress_arm_2_Skinned
+    400014: fase_1
+    400016: group1
+    400018: hat_shoulders_1
+    400020: hat_shoulders_2_Skinned
+    400022: Head
+    400024: Hip
+    400026: Lamp
+    400028: Left_Ball
+    400030: Left_Clavicle
+    400032: Left_Elbow
+    400034: Left_Foot
+    400036: Left_Hand
+    400038: Left_Index
+    400040: Left_Index_1
+    400042: Left_Index_End
+    400044: Left_Knee
+    400046: Left_Leg
+    400048: Left_Shoulder
+    400050: Left_Thumb_0
+    400052: Left_Thumb_1
+    400054: Left_Thumb_End
+    400056: Left_Toe
+    400058: mummy_1
+    400060: mummy_2
+    400062: mummy_3
+    400064: //RootNode
+    400066: Neck_0
+    400068: Neck_1
+    400070: Right_Ball
+    400072: Right_Clavicle
+    400074: Right_Elbow
+    400076: Right_Foot
+    400078: Right_Hand
+    400080: Right_Index
+    400082: Right_Index_1
+    400084: Right_Index_End
+    400086: Right_Knee
+    400088: Right_Leg
+    400090: Right_Shoulder
+    400092: Right_Thumb_0
+    400094: Right_Thumb_1
+    400096: Right_Thumb_End
+    400098: Right_Toe
+    400100: Root
+    400102: shoulders_hat_4
+    400104: Spine_0
+    400106: Spine_1
+    400108: Spine_2
+    400110: Spine_3
+    2300000: dress_4
+    3300000: dress_4
+    4300000: hat_shoulders_1
+    4300002: hat_shoulders_2_Skinned
+    4300004: dress_4
+    4300006: shoulders_hat_4
+    4300008: fase_1
+    4300010: body_1
+    4300012: dress_arm_2_Skinned
+    4300014: dress_1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body_1
+    13700002: dress_1
+    13700004: dress_arm_2_Skinned
+    13700006: fase_1
+    13700008: hat_shoulders_1
+    13700010: hat_shoulders_2_Skinned
+    13700012: shoulders_hat_4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

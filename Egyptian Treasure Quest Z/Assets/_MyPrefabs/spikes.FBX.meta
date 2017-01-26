@@ -14,6 +14,7 @@ ModelImporter:
     2300000: Plane002
     3300000: Plane002
     4300000: Plane002
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1

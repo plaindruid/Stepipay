@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LoadLevel : MonoBehaviour {
 
     public string sceneName;
+    public int sceneIndex;
 
     void Update()
     {
@@ -16,7 +17,8 @@ public class LoadLevel : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene(sceneName);
+            //SceneManager.LoadScene(sceneName);
+            LoadingScreenManager.LoadScene(sceneIndex);
         }
     }
 }

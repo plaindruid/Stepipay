@@ -8,6 +8,7 @@ public class LevelSelection : MonoBehaviour
     public int Stage_ID;
     public Sprite Stage_image;
     public string Stage_name;
+    public int sceneIndex;
     bool unlock = false;
     // Use this for initialization
     void Start()
@@ -26,7 +27,8 @@ public class LevelSelection : MonoBehaviour
     {
         if(unlock)
         {
-            SceneManager.LoadScene(Stage_name);  
+            //SceneManager.LoadScene(Stage_name);  
+            LoadingScreenManager.LoadScene(sceneIndex);
         }
     }
 

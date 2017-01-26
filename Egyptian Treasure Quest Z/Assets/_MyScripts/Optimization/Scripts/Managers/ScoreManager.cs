@@ -13,6 +13,8 @@ public class ScoreManager : MonoBehaviour
     // Use this for initialization
     void OnEnable()
     {
+        GameObject.Find("EventSystem").GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(GameObject.Find("btn_Hide_HiScore"));
+
         foreach(Scores sc in ScoreDB.score)
         {
             ScoresTxt[scoreIndex].text = sc.Score.ToString() ;
@@ -20,6 +22,7 @@ public class ScoreManager : MonoBehaviour
         }
 
         player_score.text = StephGameManager.instance.Score.ToString();
+        GameObject.Find("EventSystem").GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(GameObject.Find("btn_Hide_HiScore"));
     }
 
     void OnDisable()

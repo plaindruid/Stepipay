@@ -147,7 +147,7 @@ public class ItemScript : MonoBehaviour
             StephGameManager.instance.Player_Stat.Cure_Status();
         }
 
-        if(Score > 0)
+        if(Score >= 0 || Score <= 0)
         {
             StephGameManager.instance.Score += Score;
             if (itemSound != null)

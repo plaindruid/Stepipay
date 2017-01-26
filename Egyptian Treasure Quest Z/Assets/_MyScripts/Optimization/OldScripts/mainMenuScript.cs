@@ -10,7 +10,8 @@ public class mainMenuScript : MonoBehaviour
     public GameObject goQuit;
     public GameObject goBack;
     public bool musicOn;
-    GameObject[] sounds; 
+    GameObject[] sounds;
+    public GameObject resetGO;
 
 
     void Start ()
@@ -35,12 +36,15 @@ public class mainMenuScript : MonoBehaviour
 
     public void pressStart()
     {
-        SceneManager.LoadScene("storylineScene");
+        //SceneManager.LoadScene("storylineScene");
+        resetGO.SetActive(true);
+        LoadingScreenManager.LoadScene(4);
     }
 
     public void pressLoadGame()
     {
-        SceneManager.LoadScene("Level_Scene");
+        //SceneManager.LoadScene("Level_Scene");
+        LoadingScreenManager.LoadScene(5);
     }
 
     public void pressAbout()
