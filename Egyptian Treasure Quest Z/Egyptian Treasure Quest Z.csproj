@@ -128,15 +128,20 @@
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\CountdownLoadScene.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\GameManager.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\IncreaseDecreaseLife.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\OldScripts\InstructionsScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\ItemBehavior.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\JumpScareScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\LoadLevel.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\OldScripts\LoadingScreenManager.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\Mummy.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\PortalScript.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\OldScripts\RandomScript.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\OldScripts\ResetQuests.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\ShowInfoScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\SkipButton.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\StorylineScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\TimerScript.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\OldScripts\TimerSlider.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\TrapsScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\TrapsTrigger.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\TriviaScript.cs" />
@@ -145,6 +150,7 @@
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\pauseMenuScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\pickUpScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\placeItemOnHolder.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\OldScripts\soundScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\splashScreenScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\OldScripts\unlockTomb.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\RayCastSteph.cs" />
@@ -157,6 +163,7 @@
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\DataBase\LevelUnlockDB.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\DataBase\QuestDatabase.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\DataBase\SceneDatabase.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\GalleryImagePic.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\ItemReciever.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\ItemScript.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Interactions\LevelSelection.cs" />
@@ -174,6 +181,7 @@
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Managers\UIManager.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Object%26Damage\ApplyDamage.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Object%26Damage\BossEncounterAchievement.cs" />
+    <Compile Include="Assets\_MyScripts\Optimization\Scripts\Object%26Damage\DeathByTimer.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Object%26Damage\TimerAchievementSteam.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Object%26Damage\TimerObjective.cs" />
     <Compile Include="Assets\_MyScripts\Optimization\Scripts\Object%26Damage\TrapDamage.cs" />
