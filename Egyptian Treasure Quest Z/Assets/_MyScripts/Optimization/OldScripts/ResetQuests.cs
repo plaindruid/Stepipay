@@ -3,15 +3,29 @@ using System.Collections;
 
 public class ResetQuests : MonoBehaviour
 {
+    public bool ResetAll = false;
+
     public QuestDatabase myQuestDB;
     public SceneDatabase mySceneDB;
 
+    public int[] quest_index;
+
     void OnEnable()
     {
-        Reset_All_Quest();
-        ResetTotally_Quest();
-        Reset_Scenes();
+        if (ResetAll)
+        {
+            Reset_All_Quest();
+            ResetTotally_Quest();
+            Reset_Scenes();
+        }
+        else
+        {
+            Reset_This_Quest();
+        }
+
     }
+
+   
 
     void Reset_All_Quest()
     {
@@ -34,6 +48,16 @@ public class ResetQuests : MonoBehaviour
     {
         mySceneDB.Stage_Maps[1].Activated = false;
         mySceneDB.Stage_Maps[2].Activated = false;
+    }
+
+    void Reset_This_Quest()
+    {
+        foreach (int q_index in quest_index)
+        {
+            myQuestDB.Quests[q_index].Quest_Status = QuestList._Quest_Status.NotStarted;
+            myQuestDB.Quests[q_index].Gallery_opened = false;
+        }
+        
     }
 
 
